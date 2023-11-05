@@ -1,0 +1,30 @@
+.inputfield{
+    display: flex;
+    flex-direction: column;
+}
+.signup-form{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* width: 100%; */
+}
+
+.user-image img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 100px;
+}
+
+.user-image input[type="file"]{
+    display: none;
+}
+
+.user-image label{
+    cursor: pointer;
+}
+
+.pass-eye svg{
+    width: 20px;
+}

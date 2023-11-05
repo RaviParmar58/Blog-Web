@@ -1,0 +1,26 @@
+.post-page{
+    padding: 50px 0;
+}
+
+.post-thumnail img{
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
+
+.author-img{
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.edit-icon svg, .delete-icon svg{
+    height: 25px;
+    color: blueviolet;
+}
+
+.delete-icon svg{
+    color: red;
+    height: 25px;
+}

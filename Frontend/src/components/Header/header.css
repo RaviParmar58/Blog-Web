@@ -1,0 +1,51 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-search {
+    background: #f9f9f9;
+    border-radius: 100px;
+    padding: 6px 15px;
+    border: 1px solid gray;
+}
+
+.nav-search svg {
+    color: #64748b;
+    width: 22px;
+}
+
+.nav-search input {
+    border: none;
+    background: none;
+    margin-left: 10px;
+    width: 95%;
+}
+
+.nav-search input:focus {
+    outline: none;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+
+div.nav-right .write-post-btn svg {
+    margin-right: 5px;
+    width: 22px;
+}
+
+.pipe {
+    color: #cbcbcb;
+}
+
+.header-user-image{
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+}
+
+.noti-btn svg{
+    width: 25px;
+}

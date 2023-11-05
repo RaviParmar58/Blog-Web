@@ -1,0 +1,20 @@
+.all-post-section{
+    padding: 50px 0;
+}
+
+.blog-image img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.post-title{
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.author-info img{
+    object-fit: cover;
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+}
